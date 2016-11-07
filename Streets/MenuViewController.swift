@@ -40,6 +40,7 @@ class MenuViewController: UIViewController {
     }
     //Размытие фона
     /////////////////
+    /////////////////
     func addBlurEffect(view: UIView, style: UIBlurEffectStyle)   {
         
         view.backgroundColor = UIColor.clear
