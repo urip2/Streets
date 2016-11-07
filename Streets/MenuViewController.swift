@@ -21,7 +21,7 @@ class MenuViewController: UIViewController {
         let scale = CGAffineTransform(scaleX: 0.5, y: 0.5)
         let translate = CGAffineTransform(translationX: 0, y: -300)
         dialogView.transform = scale.concatenating(translate)
-        
+        //Animate
         UIView.animate(withDuration: 0.7){
             let scale = CGAffineTransform(scaleX: 1, y: 1)
             let translate = CGAffineTransform(translationX: 0, y: 0)
