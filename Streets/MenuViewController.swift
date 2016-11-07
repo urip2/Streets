@@ -38,7 +38,7 @@ class MenuViewController: UIViewController {
         addBlurEffect(view: bottomView, style: .dark)
         
     }
-    
+    //Размытие фона
     func addBlurEffect(view: UIView, style: UIBlurEffectStyle)   {
         
         view.backgroundColor = UIColor.clear
